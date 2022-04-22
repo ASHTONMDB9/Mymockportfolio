@@ -47,7 +47,7 @@
        flex-direction: column;
        justify-content: center;
        align-items: center;
-       background-image: url(Milky-Way-Glowing-At-Night.gif);
+       background-image: url(land.jpg);
        background-attachment:fixed;
        background-size: cover;
        background-repeat: no-repeat;
@@ -60,7 +60,7 @@
       text-shadow: 3px 3px 3px black;
    }
    h3 {
-       color: black;
+       color: blue;
        text-align: center;
        font-family: sans-serif;
        font-size: 30px;
