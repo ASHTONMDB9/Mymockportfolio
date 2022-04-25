@@ -334,3 +334,15 @@ button {
 
 /*Media Queries always at the bottom
 ordered from largest to smallest*/
+@media screen  and (max-width: 600px) {
+  body {
+    display: grid;
+    grid-template-columns:
+    "landing"
+    "about"
+    "testimonials"
+    "resume"
+    "projects"
+    "contact"
+  }
+}
