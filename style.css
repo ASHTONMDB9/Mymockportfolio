@@ -242,9 +242,7 @@ p {
 }
 .pro {
   color: white;
-  font-family: sans-serif;
-  font-size: large;
-  text-decoration: underline solid red;
+  text-decoration: underline red;
 }
 .content {
   background-color: black;
