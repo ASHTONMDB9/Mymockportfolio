@@ -228,6 +228,12 @@ p {
   background-color: black;
   height: 100vh;
 }
+#word {
+  color: red;
+  font-family: sans-serif;
+  font-size: large;
+  text-decoration: none;
+}
 #text4 {
   box-sizing: content-box;
   font-size: 40px;
@@ -281,12 +287,22 @@ input[type=submit]:hover {
   margin-top: 6px;
   padding: 20px;
 color: red;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: sans-serif;
+font-size: large;
 }
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+button {
+  height: 30px;
+  width: 100px;
+  color: black;
+  background-color: red;
+  border: 1px solid black;
+  font-family: sans-serif;
+  font-size: large;
 }
 
 /*Media Queries always at the bottom
