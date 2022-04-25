@@ -222,6 +222,35 @@ p {
   padding-top: 10px;
 }
 
+/*Project Style*/
+
+.row {
+  margin: 8px -16px;
+}
+.row,
+.row > .column2 {
+  padding: 8px;
+}
+.column2 {
+  float: left;
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.pro {
+  color: white;
+  font-family: sans-serif;
+  font-size: large;
+  text-decoration: underline solid red;
+}
+.content {
+  background-color: black;
+  padding: 10px;
+}
+
 /*resume style*/
 
 #resume {
@@ -281,7 +310,7 @@ input[type=submit]:hover {
   background-color: black;
   padding: 10px;
 }
-.column1 {
+.column3 {
   float: left;
   width: 50%;
   margin-top: 6px;
